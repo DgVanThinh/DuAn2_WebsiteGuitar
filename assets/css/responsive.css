@@ -200,7 +200,6 @@
   .sub-nav {
     display: block;
     position: static;
-    width: 90%;
     background-color: rgb(195, 195, 195);
   }
 
@@ -289,6 +288,9 @@
       padding-top: 10px;
       padding-bottom: 10px;
       font-size: 15px;
+    }
+    .red-word {
+      font-size: 22px;
     }
       /* ============footer============== */
   .footer-container1 , .footer-container2 

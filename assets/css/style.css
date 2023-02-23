@@ -353,6 +353,7 @@ input {
   padding: 20px 20px ;
   border-radius: 20px;
   border: 1px solid #fff;
+  /* width: 100%; */
 
 }
 
@@ -382,10 +383,16 @@ input {
 .map {
   width: 100%;
 }
+.name-cus-container , .sdt-cus-container, .mail-cus-container , .address-cus-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 /* Footer  */
 #footer {
   background-color: #bcbcbc;
   border-radius: 20px;
+  margin-top: 20px;
 }
 .footer-container1 ,.footer-container2 {
   display: flex;
